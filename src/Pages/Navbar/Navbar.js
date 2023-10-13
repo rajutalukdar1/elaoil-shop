@@ -24,8 +24,10 @@ const Navbar = () => {
                             {/* Navbar */}
                             <div className="w-full navbar ">
 
+
                                 <img className='lg:h-16 lg:w-20 h-16 w-12' src={logo} alt='' />
                                 <div className="flex-1 text-4xl font-semibold text-white">ela<span className="text-[#279b37]">oil</span></div>
+
                                 <div className="flex-none hidden lg:block">
                                     <ul className="menu menu-horizontal">
                                         {menuitems}

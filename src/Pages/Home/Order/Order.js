@@ -35,9 +35,9 @@ const Order = () => {
                                     <span className="label-text">কোন প্যাকেজটি নিতে চান সিলেক্ট করুন</span>
                                 </label>
                                 <select required name="product" className="text-[#333333] select select-bordered w-full border-[#C3C4E1] focus:outline-none">
-                                    <option>ট্রায়াল কোর্স – ২০০ মিলি তেল</option>
-                                    <option>হাফ কোর্সঃ ৪০০ মিলি তেল</option>
-                                    <option>কম্বো প্যাকেজঃ ২৫০ গ্রাম হেয়ার স্পা + ৪০০ মিলি তেল</option>
+                                    <option>চুলের তেল - 200 মিলি: ৭৯৯ টাকা</option>
+                                    <option>চুলের প্যাক 100 গ্রাম: ১৯৯ টাকা</option>
+                                    <option>কম্বো প্যাকেজঃ 200 মিলি তেল + চুলের প্যাক 100 গ্রাম: ৯৫০ টাকা</option>
                                 </select>
                             </div>
                             <div>
@@ -51,8 +51,9 @@ const Order = () => {
                                     <span className="label-text">প্রদান খরচ</span>
                                 </label>
                                 <select required name="shipping" className="text-[#333333] select select-bordered w-full border-[#C3C4E1] focus:outline-none">
-                                    <option>ঢাকার ভিতরে: ৳ 80.00</option>
-                                    <option>ঢাকার বাহিরে: ৳ 140.00</option>
+                                    <option>ফরিদপুর শহরে ৭০টাকা</option>
+                                    <option>ঢাকা শহরে ৭০ টাকা</option>
+                                    <option>ঢাকা এবং ফরিদপুর এর বাইরে 130</option>
                                 </select>
                             </div>
                         </div>
