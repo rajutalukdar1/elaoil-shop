@@ -125,7 +125,7 @@ const Faq = () => {
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
-                            কি কি উপদান দিয়ে তৈরি?
+                            কি কি উপদান দিয়ে তৈরি এবং উপকারিতা?
                         </h2>
 
                         <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">

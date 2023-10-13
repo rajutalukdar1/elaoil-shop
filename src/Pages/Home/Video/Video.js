@@ -22,7 +22,7 @@ const Video = () => {
                         <div className="mt-8 flex flex-wrap justify-center gap-4">
                             <a
                                 className="block w-full rounded bg-[#279b37] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#279b37] focus:outline-none focus:ring active:bg-[#279b37] sm:w-auto"
-                                href="/get-started"
+                                href="/#order"
                             >
                                 Order Now
                             </a>

@@ -1,21 +1,14 @@
 import './Navbar.css'
+import logo from '../../assest/E__2_-removebg-preview.png'
 const Navbar = () => {
 
 
     const menuitems = (
 
         <>
-            <li className="text-white text-base font-semibold">
-                <a href="/#about">About</a>
-            </li>
-            <li className="text-white text-base font-semibold">
-                <a href="/#token">Plan</a>
-            </li>
-            <li className="text-white text-base font-semibold">
-                <a href="/#roadmap">Blog</a>
-            </li>
-            <li className="text-white text-base font-semibold ">
-                <a href="/#chart">contact</a>
+
+            <li className="bg-[#279b37] text-base font-semibold text-white rounded-md">
+                <a href="/#order">Order Now</a>
             </li>
         </>
     );
@@ -24,15 +17,15 @@ const Navbar = () => {
     return (
         <div>
             <div>
-                <div className='navbar-bg'>
-                    <div className="drawer mx-auto max-w-screen-xl ">
+                <div className='navbar-bg mx-auto max-w-screen-xl'>
+                    <div className="drawer ">
                         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-content flex flex-col">
                             {/* Navbar */}
                             <div className="w-full navbar ">
 
-                                {/* <img className='lg:h-20 lg:w-20 h-12 w-12 mr-5' src='' /> */}
-                                <div className="flex-1 text-4xl font-semibold text-white">ela<span className="text-[#cca354]">oil</span></div>
+                                <img className='lg:h-16 lg:w-20 h-16 w-12' src={logo} alt='' />
+                                <div className="flex-1 text-4xl font-semibold text-white">ela<span className="text-[#279b37]">oil</span></div>
                                 <div className="flex-none hidden lg:block">
                                     <ul className="menu menu-horizontal">
                                         {menuitems}

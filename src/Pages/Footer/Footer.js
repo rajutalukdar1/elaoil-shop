@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
                             কোন প্রশ্ন বা সাহায্য লাগলে কল করুনঃ 01920915242
                         </p>
                         <a
-                            href="/#"
+                            href="/#order"
                             className="mt-8 inline-block rounded-full border bg-[#279b37] border-[#279b37] px-12 py-3 text-sm font-medium hover:bg-[#279b37] hover:text-white focus:outline-none focus:ring active:bg-[#279b37] text-white"
                         >
                             ORDER NOW

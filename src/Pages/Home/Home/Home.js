@@ -1,3 +1,4 @@
+import image from "../../../assest/2.png"
 import React from 'react';
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
                         >
                             <img
                                 alt="Party"
-                                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                src={image}
                                 className="absolute inset-0 h-full w-full object-cover"
                             />
                         </div>
@@ -33,7 +34,7 @@ const Home = () => {
                             </p>
                             <div className="mt-8 flex flex-wrap gap-4 text-center">
                                 <a
-                                    href="/#"
+                                    href="/#order"
                                     className="block w-full rounded bg-[#279b37] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#279b37] focus:outline-none focus:ring active:bg-[#279b37] sm:w-auto"
                                 >
                                     ORDER NOW
